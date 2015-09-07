@@ -51,6 +51,9 @@ LUA_BIN_DIR =       $(PREFIX)/bin
 #CJSON_LDFLAGS =     -shared -L$(PREFIX)/lib -llua51
 #LUA_BIN_SUFFIX =    .lua
 
+## OpenResty
+LUA_INCLUDE_DIR = $(PREFIX)/openresty/luajit/include/luajit-2.1/
+
 ##### Number conversion configuration #####
 
 ## Use Libc support for number conversion (default)
